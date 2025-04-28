@@ -1,9 +1,8 @@
-from modules import forwardemail
+from http import client
+from forwardemail import forwardemail, aliases, encrypt, logs, account, emails
 from yaml import dump
 
-client = forwardemail.forwardemail(api_key="44386d4569a9798ed23aee77", domain="hash.fyi")
+api_key = "44386d4569a9798ed23aee77"
+domain = "asnone.org"
 
-test = client.aliases(pagination=True)
-data = test.json()
 
-print(dump(data=data[0]))
