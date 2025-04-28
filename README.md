@@ -1,3 +1,3 @@
 TODO:
-- [] Document the code;
-- [] Update some variables
+- [ ] Document the code;
+- [ ] Update some variables
